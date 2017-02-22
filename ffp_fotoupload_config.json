@@ -1,0 +1,76 @@
+{
+    "default_source_path": "",
+    "temp_path": "temp",
+    "archive_path": "archive",
+    "timestamp": "%Y-%m-%dT%H-%M-%S",
+    "delete_source": false,
+    "log": {
+        "path": "log",
+        "level": "DEBUG"
+    },
+    "image": {
+        "enable": true,
+        "type": [".jpg", ".png"]
+    },
+    "image_thumbnail": {
+        "enable": true,
+        "size_px": [1000, 1000]
+    },
+    "video": {
+        "enable": true,
+        "type": [".mp4"]
+    },
+    "video_thumbnail": {
+        "enable": false,
+        "ffmpeg_args": []
+    },
+    "email": {
+        "enable": false,
+        "sender": "",
+        "recipient": [""],
+        "recipient_cc": [],
+        "recipient_bcc": [],
+        "header_html": "<HTML><Body bgcolor=\"#eeeeee\">\n<P>Automatischer Fotoupload zum internen Gebrauch/Information. <br />Die Fotos sind bis zum Aufraeumen in der Feuerwehr unter REDACTED zu finden! <br /></P>",
+        "footer_html": "<br>-- <br>Oeffentlichkeitsarbeit FF Pressbaum</Body></HTML>",
+        "header_alt": "Automatischer Fotoupload zum internen Gebrauch/Information.\nDie Fotos sind bis zum Aufraeumen in der Feuerwehr unter REDACTED zu finden!\n",
+        "footer_alt": "Oeffentlichkeitsarbeit FF REDACTED",
+        "weblink": "/weblink/",
+        "media_columns": 3
+    },
+    "err_email": {
+        "enable": true,
+        "sender": "",
+        "recipient": [""]
+    },
+    "remote_ftp": {
+        "enable": false,
+        "ftp": "localhost",
+        "username": "",
+        "password": "",
+        "target_dir": "/public_html/site/images/stories/upload",
+        "use_mlsd": "False"
+    },
+    "local_ftp": {
+        "enable": false,
+        "type": ["", ".html", ".txt", ".zip", ".jpg", ".png", ".mp4"],
+        "ftp": "localhost",
+        "username": "",
+        "password": "",
+        "target_dir": "/datenaustausch/fotoupload",
+        "use_mlsd": "False"
+    },
+    "audio": {
+        "path": "audio",
+        "wait": "bitte-warten.mp3",
+        "started": "upload-gestartet.mp3",
+        "finished": "upload-beendet.mp3",
+        "error": "keine_sd_karte_gefunden.mp3"
+    },
+    "multiprocess": {
+        "process_count": 7
+    },
+    "http_server": {
+        "host": "localhost",
+        "port": 8080
+    }
+}
