@@ -1,5 +1,9 @@
 # FFP_Fotoupload
 
+# This project has been moved to Gitlab: <https://gitlab.com/users/neo0x3d/projects>
+
+[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://img.shields.io/badge/License-GPL%20v2-blue.svg)
+
 Note: This is under heavy development and currently not all necessary files are released!
 
 This is an upload script/toolkit, used to process and upload images from removable media with minimal user interaction.
@@ -76,13 +80,11 @@ Following packages need to be installed (and running if they are a daemon):
 $ sudo pip3 install requirements.txt
 ```
 
-
 ### Configure main script
 
 - ffp_fotoupload.py: Set config file path in to the ffp_fotoupload_config.py (use full path, this is the only modification required in this file)
 
 - ffp_fotoupload_config.json: Needs to be configured before start, it will hold all mandatory information required for running.
-
 
 ### Setup starting method
 
